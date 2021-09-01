@@ -1,15 +1,28 @@
+/** Importing fonts**/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@119&display=swap');
 body
 {
-    color:red;
+    font-family: 'Roboto Slab',
+    serif;
+
 }
-.para
-{
- color:green;   
+:root{
+    --primary-color:red;
 }
-#typo{
-    color:purple;
+.container {
+    /* padding-left:1rem;
+    padding-right:1rem; */
+    padding:1rem,1rem;
+    /*first parameter for top down and 
+    second parameter for left-right*/
+
 }
-h3
-{
-    color:black;
+.container-center {
+  max-width: 600px;
+  margin:auto;
+}
+
+/* links*/
+.link-primary{
+    color:var(--primary-color);
 }
