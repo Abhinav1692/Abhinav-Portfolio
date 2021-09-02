@@ -1,28 +1,162 @@
 /** Importing fonts**/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@119&display=swap');
-body
-{
-    font-family: 'Roboto Slab',
-    serif;
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+
+body {
+    font-family: 'Besley', serif;
+    margin:0px;
 
 }
-:root{
-    --primary-color:red;
+/* Anything which is globally delared
+ can be done@root*/
+:root {
+    --primary-color: #FF63DF;
+    --blue-color: #2563EB;
+    --light-purple:#F5F3FF;
 }
+
+hr {
+    margin: 2rem 0rem;
+}
+
 .container {
     /* padding-left:1rem;
     padding-right:1rem; */
-    padding:1rem,1rem;
+    padding: 1rem, 1rem;
     /*first parameter for top down and 
     second parameter for left-right*/
 
 }
+
 .container-center {
-  max-width: 600px;
-  margin:auto;
+    max-width: 650px;
+    margin: auto;
 }
 
 /* links*/
-.link-primary{
-    color:var(--primary-color);
+.link {
+    /* we can remove the underline by using below code */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.link-primary {
+    /* color:var(--primary-color); */
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+/* lists */
+
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+
+
+/* nav */
+
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-brand {
+    /* {   padding:1rem 1rem; */
+    font-weight: bold;
+    color:var(--blue-color);
+    font-size:large;
+}
+
+.navigation .align-list {
+    text-align: right;
+}
+
+
+/* header */
+
+.coder {
+    padding: 2rem;
+}
+
+.coder .coder-image {
+    margin: auto;
+    max-width: 450px;
+    display: block;
+}
+
+.coder .coder-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--blue-color);
+}
+
+/* section */
+
+.section{
+    padding:1rem;
+}
+.section h3{
+    text-align: center;
+}
+.section-color
+{
+  background-color:var(--light-purple);
+
+}
+/* .section .para{
+  text-align:center;
+  display: block;
+  margin:auto;
+} */
+
+/* footer */
+
+.footer {
+    background-color:var(--primary-color);
+    padding:1rem 1rem;
+    color:white;
+    text-align:center;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+   color:var(--blue-color);
+   font-weight:bold;
+ 
+}
+.footer .list-inline
+{
+    display:inline;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer .footer-header 
+{
+font-weight:bold;
+font-size:large;
 }
