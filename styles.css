@@ -3,25 +3,34 @@
 
 body {
     font-family: 'Besley', serif;
-    margin:0px;
+    margin:0px ;
+    /* max-width: 85%;
+    width: 100%; */
+    /* max-width:85%; */
+    /* width:100%; */
 
 }
 /* Anything which is globally delared
  can be done@root*/
 :root {
-    --primary-color: #FF63DF;
-    --blue-color: #2563EB;
+    /* #FF63DF  #6d1c5e */
+    --primary-color:#3b4d61;
+    /* --blue-color: #FF63DF ; */
     --light-purple:#F5F3FF;
 }
 
 hr {
     margin: 2rem 0rem;
 }
+/* spaces */
+.margin-md {
+    margin: 2rem;
+  }
 
 .container {
     /* padding-left:1rem;
     padding-right:1rem; */
-    padding: 1rem, 1rem;
+    padding: 0rem, 1rem;
     /*first parameter for top down and 
     second parameter for left-right*/
 
@@ -33,25 +42,36 @@ hr {
 }
 
 /* links*/
+
+
 .link {
     /* we can remove the underline by using below code */
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    /* padding:0.5rem 1 rem; */
+    box-sizing:border-box;
 
 }
 
 .link-primary {
     /* color:var(--primary-color); */
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
     color: white;
-
+    margin:auto;
+    max-width:140px;
+    display:flex;
+   
 }
 
 .link-secondary {
+    max-width:130px;
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
+    margin:auto; /* text-align:center; */
+   display:flex;
 }
 
 
@@ -105,12 +125,13 @@ hr {
     margin: auto;
     max-width: 450px;
     display: block;
+    margin-top:3rem;
 }
 
 .coder .coder-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--blue-color);
+    /* color: var(--blue-color); */
 }
 
 /* section */
@@ -158,4 +179,25 @@ hr {
 {
 font-weight:bold;
 font-size:large;
+}
+
+
+/*  projects-css */
+.showcase-list
+{
+/* {  display:block; */
+    text-align:center;
+    /* margin:0rem 0rem; */
+    border-radius:2rem;
+    padding:1rem;
+}
+.showcase-list h1 {
+    margin:0.5;
+}
+.showcase-list p 
+{
+    padding-bottom: 1rem;;
+}
+.link-source {
+    max-width:150px;
 }
