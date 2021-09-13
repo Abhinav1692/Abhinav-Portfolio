@@ -13,10 +13,11 @@ body {
 /* Anything which is globally delared
  can be done@root*/
 :root {
-    /* #FF63DF  #6d1c5e */
-    --primary-color:#3b4d61;
+    /* #FF63DF  #6d1c5e  */
+    /* #FF63DF  #6d1c5e  */
+    --primary-color:#1e005a;
     /* --blue-color: #FF63DF ; */
-    --light-purple:#F5F3FF;
+    --light-purple:#D1D5DB;
 }
 
 hr {
@@ -49,7 +50,7 @@ hr {
     text-decoration: none;
     /* padding:0.5rem 1 rem; */
     box-sizing:border-box;
-
+   
 }
 
 .link-primary {
@@ -63,7 +64,10 @@ hr {
     display:flex;
    
 }
+.nav-link{
+ font-size:large;
 
+}
 .link-secondary {
     max-width:130px;
     color: var(--primary-color);
@@ -139,12 +143,13 @@ hr {
 .section{
     padding:1rem;
 }
-.section h3{
+.section h2{
     text-align: center;
 }
 .section-color
 {
   background-color:var(--light-purple);
+  border-radius:1rem;
 
 }
 /* .section .para{
