@@ -62,7 +62,7 @@ hr {
     margin:auto;
     max-width:140px;
     display:flex;
-   
+ 
 }
 .nav-link{
  font-size:large;
@@ -110,8 +110,8 @@ hr {
 .navigation .nav-brand {
     /* {   padding:1rem 1rem; */
     font-weight: bold;
-    color:var(--blue-color);
-    font-size:large;
+    color:white;
+    font-size:150%;
 }
 
 .navigation .align-list {
@@ -188,6 +188,17 @@ font-size:large;
 
 
 /*  projects-css */
+.project-sourcelink
+{
+    margin-bottom:10px;
+    max-width:130px;
+    padding-right:0.8rem;
+    padding-left:0.8rem;
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+   
+}
+
 .showcase-list
 {
 /* {  display:block; */
@@ -205,4 +216,41 @@ font-size:large;
 }
 .link-source {
     max-width:150px;
+}
+
+
+/* blogs */
+.blog-head
+{
+    text-align:center;
+    font-size:190%;
+    font-weight:bold;
+    margin-top:4rem auto;
+    padding-top:2rem;
+    color:var(--primary-color);
+}
+.para-blog{
+max-width:890px;
+text-align:center;
+margin:auto;
+margin-top:2rem;
+font-weight:bold;
+}
+.div-blog{
+    text-align:center;
+    font-size:160%;
+    text-align:center;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-weight:bold;
+    color:var(--primary-color);
+}
+.subhead-blog{
+    text-align:center;
+    font-size:110%;
+    text-align:center;
+    margin-top:2rem;
+    margin-bottom:1rem;
+    font-weight:bold;
+    color:var(--primary-color);
 }
