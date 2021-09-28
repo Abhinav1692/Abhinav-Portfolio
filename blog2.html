@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css"
+   <title></title>
+</head>
+<body style="background-color:var(--light-purple)">
+
+   <nav class="navigation container">
+      <div class="nav-brand">IAMDEVELOPER</div>
+      <ul class="list-non-bullet align-list">
+
+          <li class="list-inline">
+              <a class="link nav-link" href="/">Home</a>
+          </li>
+          <li class="list-inline">
+              <a class="link nav-link" href="/projects.html">Projects</a>
+          </li>
+          <li class="list-inline">
+              <a class="link nav-link" href="/blogs.html">Blogs</a>
+          </li>
+
+      </ul>
+  </nav>
+
+
+
+
+   <div style="background-color:var(--light-purple);">
+   <h1 class="header-blog2">Most Used "HTTP Response Codes" which you should know.</h1>
+    <p class="para-blog">Hello, I have listed all the most used HTTP
+        response codes and their meanings which we often see.
+       HTTP response status codes are basically used by server in response to a client's request.
+       The first digit of the code signifes one of the standard classes of response.
+       HTTP status codes are categorised into 5 classes which are as follows.
+    </p>
+    <h2 class="header-blog2">1xx "Informational Response"</h2>
+   
+    <!-- <div class="div-para"> -->
+    <h3 class="subheader3">100 "Continue"</h3>
+    <p class="para-blog2" >This response shows that
+      the server received the request headers and the client should
+      start to send request body or, ignore the response if the request is already finished.</p>
+   <!-- </div> -->
+     
+   <h3 class="subheader3">101 "Early Hints"</h3>
+    <p class="para-blog2">it is used to return some response headers before the final HTTP message.</p>
+
+    <h2 class="header-blog2">2xx "Successful Responses"</h2>
+
+    <!-- <h3 class="subheader3">200 "Ok"</h3>.
+    <p class="para-blog2">c</p> -->
+    <h3 class="subheader3">200 "Ok"</h3>
+    <p class="para-blog2">Standard response for successful HTTP requests.</p>
+
+    <h3 class="subheader3">201 "Created"</h3>
+
+    <p style="margin-top:1rem" class="para-blog2">This response shows that the request has been fulfilled 
+       and it results in the creation of new resource.</p>
+
+       <h3 class="subheader3">202 "Accepted"</h3>
+    <p class="para-blog2">The request has been accepted but not yet acted upon.</p>
+
+
+     <h2 class="header-blog2">3xx "Redirection Messages"</h2>
+
+
+     <h3 class="subheader3">300 "Multiple Choice"</h3>
+     <p class="para-blog2">This response shows that the request has more than one response
+         from which the client may choose.</p>
+      <h3 class="subheader3">301 "Moved Permanently"</h3>
+      <p class="para-blog2">The URL of the requested resource has been changed permanently.
+          Therefore, New URL is given in the response.</p>
+      
+   
+
+      <h2 class="header-blog2">4xx "Client Error Responses"</h2>
+
+
+      <h3 class="subheader3">400 "Bad Request"</h3>
+      <p class="para-blog2">The server is not able to understand the request due to invalid syntax.</p>
+      <h3 class="subheader3">403 "Forbidden"</h3>
+      <p class="para-blog2">The client doesn't have the right to access the content. Therefore, Server refused to provide
+          the requested resource. However, the Client's identity is known to the server.</p>
+
+      <h3 class="subheader3">404 "Not Found"</h3>
+      <p class="para-blog2">The server fails to find the requested resource. It means in the browser, The URL is not recognized.</p>
+ 
+
+         <h2 class="header-blog2">5xx "Server Error Messages"</h2>
+
+
+         <h3 class="subheader3">500 "Internal Server Error"</h3>
+         <p class="para-blog2">An unexpected situation has occurred which server doesn't know how to handle.</p>
+         <h3 class="subheader3">503 "Service Unavailable"</h3>
+         <p class="para-blog2">This response shows that the Server is not ready to handle the client's request. It may
+             be because of the "server down for maintenance" or it got overloaded.</p>
+
+       <div style="font-weight:bold; margin-bottom:2rem;text-align:center">  I hope you liked this blog and learned something from it. Happy reading😊</div>
+  </div>
+    
+
+  <footer class="footer">
+   <div class="footer-header"> Social Media Presence</div>
+   <ul class="list-non-bullet ">
+       <li class="list-inline">
+           <a class="link"  href="https://www.instagram.com/abhinav__dubey/">
+            <img src="images/instagram.svg">
+           </a>
+         </li>
+       <li class="list-inline">
+          <a class="link"  href="https://github.com/Abhinav1692">
+           <img src="images/github.svg">
+       <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="38" height="40" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g stroke-width="1.5" fill="#fff"><path d="M16 22.027v-2.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7a5.44 5.44 0 0 0-1.5-3.75a5.07 5.07 0 0 0-.09-3.77s-1.18-.35-3.91 1.48a13.38 13.38 0 0 0-7 0c-2.73-1.83-3.91-1.48-3.91-1.48A5.07 5.07 0 0 0 5 5.797a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7a3.37 3.37 0 0 0-.94 2.58v2.87" stroke="#1e005a" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 20.027c-3 .973-5.5 0-7-3" stroke="#1e005a" stroke-linecap="round" stroke-linejoin="round"/></g></svg> {% endcomment %} {% endcomment %} -->
+          </a>
+       </li>
+       <li class="list-inline">
+         <a class="link"  href="https://twitter.com/Abhinav81919371">
+          <img src="images/twitter.svg">
+         </a>
+       </li>
+       <li class="list-inline">
+          <a class="link"  href="https://www.linkedin.com/in/abhinav-dubey1/">
+          <img src="images/linkedin.svg">
+          </a>
+       </li>
+       
+   </ul>
+</footer>
+
+</body>
+</html>
